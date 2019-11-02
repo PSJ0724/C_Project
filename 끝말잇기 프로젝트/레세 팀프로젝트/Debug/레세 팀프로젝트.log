@@ -1,0 +1,26 @@
+﻿  client.c
+c:\users\gram\desktop\박승진 공부파일\레세 팀프로젝트\레세 팀프로젝트\client.c(86): warning C4229: 오래된 구문을 사용했습니다. 데이터의 한정자가 무시됩니다.
+c:\users\gram\desktop\박승진 공부파일\레세 팀프로젝트\레세 팀프로젝트\client.c(86): warning C4047: '함수': 'LPTHREAD_START_ROUTINE'의 간접 참조 수준이 'DWORD'과(와) 다릅니다.
+c:\users\gram\desktop\박승진 공부파일\레세 팀프로젝트\레세 팀프로젝트\client.c(86): warning C4024: 'CreateThread': 형식 및 실제 매개 변수 3의 형식이 서로 다릅니다.
+c:\users\gram\desktop\박승진 공부파일\레세 팀프로젝트\레세 팀프로젝트\client.c(87): warning C4229: 오래된 구문을 사용했습니다. 데이터의 한정자가 무시됩니다.
+c:\users\gram\desktop\박승진 공부파일\레세 팀프로젝트\레세 팀프로젝트\client.c(87): warning C4047: '함수': 'LPTHREAD_START_ROUTINE'의 간접 참조 수준이 'DWORD'과(와) 다릅니다.
+c:\users\gram\desktop\박승진 공부파일\레세 팀프로젝트\레세 팀프로젝트\client.c(87): warning C4024: 'CreateThread': 형식 및 실제 매개 변수 3의 형식이 서로 다릅니다.
+c:\users\gram\desktop\박승진 공부파일\레세 팀프로젝트\레세 팀프로젝트\client.c(78): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\um\winsock2.h(1830): note: 'inet_addr' 선언을 참조하십시오.
+c:\users\gram\desktop\박승진 공부파일\레세 팀프로젝트\레세 팀프로젝트\client.c(62): warning C4101: 'strLen' :참조되지 않은 지역 변수입니다.
+c:\users\gram\desktop\박승진 공부파일\레세 팀프로젝트\레세 팀프로젝트\client.c(99): warning C4047: '함수': 'int'의 간접 참조 수준이 'char [2]'과(와) 다릅니다.
+c:\users\gram\desktop\박승진 공부파일\레세 팀프로젝트\레세 팀프로젝트\client.c(99): warning C4024: 'fputc': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+c:\users\gram\desktop\박승진 공부파일\레세 팀프로젝트\레세 팀프로젝트\client.c(173): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(132): note: 'strcpy' 선언을 참조하십시오.
+c:\users\gram\desktop\박승진 공부파일\레세 팀프로젝트\레세 팀프로젝트\client.c(175): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(132): note: 'strcpy' 선언을 참조하십시오.
+c:\users\gram\desktop\박승진 공부파일\레세 팀프로젝트\레세 팀프로젝트\client.c(119): warning C4101: 'strLen' :참조되지 않은 지역 변수입니다.
+c:\users\gram\desktop\박승진 공부파일\레세 팀프로젝트\레세 팀프로젝트\client.c(210): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+c:\users\gram\desktop\박승진 공부파일\레세 팀프로젝트\레세 팀프로젝트\client.c(203): warning C4101: 'Player_input' :참조되지 않은 지역 변수입니다.
+  server.c
+c:\users\gram\desktop\박승진 공부파일\레세 팀프로젝트\레세 팀프로젝트\server.c(283): warning C4101: 'sameword' :참조되지 않은 지역 변수입니다.
+c:\users\gram\desktop\박승진 공부파일\레세 팀프로젝트\레세 팀프로젝트\server.c(283): warning C4101: 'word' :참조되지 않은 지역 변수입니다.
+  LINK : C:\Users\gram\Desktop\박승진 공부파일\레세 팀프로젝트\Debug\레세 팀프로젝트.exe을(를) 찾을 수 없거나 마지막 증분 링크에 의해 빌드되지 않았습니다. 전체 링크를 수행하고 있습니다.
+server.obj : error LNK2005: _main이(가) client.obj에 이미 정의되어 있습니다.
+C:\Users\gram\Desktop\박승진 공부파일\레세 팀프로젝트\Debug\레세 팀프로젝트.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.
